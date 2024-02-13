@@ -1,0 +1,80 @@
+body {
+ background-image: url(img/bg1/4858501.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.login {
+ /* border: solid; */
+ border: 5px double red;
+ border-spacing: 100px;
+ border-radius: 40px 0px 0px 40px;
+ height: 400px;
+ width: 650px;
+ background-color: #EFF4F0;
+ position: absolute;
+ top: 30%;
+ left: 50%;
+} 
+
+.overlay {
+ border: none;
+ border-radius: 40px 0px 0px 40px;
+ height: 400px;
+ width: 650px;
+ background-color: #EFF4F0;
+ opacity: 40%;
+}
+
+#intro {
+ transform: translate(30px,-400px);
+}
+
+.hey {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 50px;
+ font-weight: 700;
+ color: #890D0F;
+}
+
+.name {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 30px;
+ font-weight: 500;
+ color: #890D0F;
+}
+
+#box {
+ border: 1px solid red;
+ height: 40px;
+ width: 200px;
+ border-radius: 10px 10px 10px 10px;
+}
+
+.enter {
+ height: 40px;
+ width: 150px;
+ background-color: #890D0F;
+ border-radius: 10px 10px 10px 10px;
+ position: absolute;
+ left: 30%;
+}
+
+.enter:hover {
+ color: white;
+ opacity: 85%;
+
+}
+
+h2 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+ font-weight: 800;
+ color: white;
+ transform: translate(1px,-10px);
+}
+
+.line {
+ text-decoration: none;
+ color: white;
+}

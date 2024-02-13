@@ -1,0 +1,13 @@
+body {
+ background-color: red;
+}
+
+.n1 {
+ border-radius: 10px 10px 10px 10px;
+}
+
+.line2 {
+ height: 350px;
+ width: 400px;
+ transform: translate(-100px, -100px);
+}
