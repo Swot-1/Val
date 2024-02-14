@@ -1,5 +1,5 @@
 body {
- background-color: red;
+ background-color: #680B0C;
 }
 
 .n1 {
@@ -7,7 +7,81 @@ body {
 }
 
 .line2 {
- height: 350px;
- width: 400px;
- transform: translate(-100px, -100px);
+ height: 400px;
+ width: 600px;
+ transform: translate(850px, -300px);
+}
+
+#hh {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 40px;
+ color: white;
+}
+
+#qq {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 20px;
+ color: white;
+}
+
+.line3 {
+ position: absolute;
+ top: 48%;
+}
+
+#ww {
+ font-size: 25px;
+ font-weight: 600;
+ color: #FEF665;
+}
+
+h2 {
+ font-size: 27px;
+ font-weight: 400;
+ color: #FEF665;;
+}
+
+#yy {
+ font-size: 27px;
+ font-weight: 400;
+ color: white;
+}
+
+.vid {
+ transform: translate(498px, -380px);
+}
+
+.stt {
+ position: absolute;
+ top: 49.4%;
+ left: 56.5%;
+}
+
+#ee {
+ height: 45px;
+ width: 100%;
+ padding-left: 15px;
+ background-color: white;
+}
+
+
+#ic {
+ transform: translateY(5px);
+}
+
+h1 {
+ font-weight: 500;
+ color: #FAC99B;
+}
+
+.flexbox {
+ display: flex;
+ background-color: red;
+}
+
+.flexbox > div {
+ /* background-color: white; */
+ margin: 5px;
+ /* padding: 20px; */
+ height: fit-content;
 }
