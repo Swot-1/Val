@@ -80,15 +80,15 @@ h1 {
 }
 
 #roll1{
- animation: roll1 5s  0s infinite right ;
+ animation:rolling 8s   infinite linear forwards;
 }
 
-@keyframes roll1 {
- from {
-    transform: translateX (0, 100%);
+@keyframes rolling {
+ 0% {
+    transform: translateX(1000px, 0);
  }
- to {
-   transform: translateX(100%, 0);
+ 100%{
+   transform: translateX(2000px, 0);
  }
 
 }
